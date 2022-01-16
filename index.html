@@ -11,8 +11,35 @@
 			content="An App to encrypt and decrypt text using the Vigenere Cipher"
 		/>
 		<title>Vigenere Cipher App</title>
+		<script src="main.js" defer></script>
 	</head>
 	<body>
-		<h1 class="main-heading">Vigenere Cipher</h1>
+		<header class="layout-header">
+			<h1 class="main-heading">Vigenere Cipher</h1>
+		</header>
+		<main class="layout-main">
+			<section class="key-container">
+				<label for="key-input" class="key-label"></label>
+				<input type="text" id="key-input" class="key" />
+			</section>
+			<section class="text-container">
+				<h2 class="text-heading">Enter text</h2>
+				<textarea
+					name=""
+					id=""
+					cols="30"
+					rows="10"
+					class="text-input"
+				></textarea>
+			</section>
+			<section class="output-container">
+				<h2 class="output-heading"></h2>
+				<p class="output"></p>
+			</section>
+			<section class="button-container">
+				<button class="encrypt">Encrypt</button>
+				<button class="decrypt">Decrypt</button>
+			</section>
+		</main>
 	</body>
 </html>
