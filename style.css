@@ -60,3 +60,9 @@ main {
 .button-container {
 	grid-area: button;
 }
+
+.output {
+	/* Limit inline size of output paragraph */
+	inline-size: 30ch;
+	overflow-wrap: break-word;
+}
