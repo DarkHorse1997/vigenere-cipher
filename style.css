@@ -1,0 +1,26 @@
+html,
+body {
+	height: 100%; /* Allow percentage heights */
+}
+
+html {
+	box-sizing: border-box; /* Replace confucing default behaviour */
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit; /* Replace confucing default behaviour */
+	margin: 0; /* Remove default margins */
+}
+
+textarea {
+	font: inherit; /* Make textarea inherit typographic styles from its parents */
+}
+
+body {
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.5;
+}
